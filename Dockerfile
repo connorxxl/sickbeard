@@ -21,4 +21,4 @@ VOLUME ["/volumes/complete"]
 VOLUME ["/volumes/tvseries"]
 
 ENTRYPOINT ["python2", "/opt/sickbeard/SickBeard.py"]
-CMD ["--datadir=/volumes/config"]
+CMD ["--datadir=/config"]
